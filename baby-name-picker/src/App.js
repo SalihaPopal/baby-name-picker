@@ -1,14 +1,12 @@
-import React from "react";
-import data from './babyNamesData.json';
+import React from 'react';
+import BabyNames from './BabyNames';
 
-function BabyNames() {
-    return (
-      <div className="App">
-        {data.map((element, index) => (
-          <span>{element.name} </span>
-        ))}
-      </div>
-    );
+function App () {
+  return (
+    <div>
+    <BabyNames />
+    </div>
+  )
 }
 
-export default BabyNames;
+export default App;

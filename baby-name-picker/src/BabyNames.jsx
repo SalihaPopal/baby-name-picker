@@ -1,11 +1,10 @@
 import React from 'react';
-import data from "./BabyNamesData"
+import data from "./babyNamesData"
 
-
-function BabyNames() {
+const BabyNames = () =>{
   return (
-    <div className='App'>
-        {data.map((element, index) => 
+    <div>
+        {data.map((element) => 
           <span>{element.name}</span>
         )}
     </div>
