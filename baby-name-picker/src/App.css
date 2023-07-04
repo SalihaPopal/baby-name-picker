@@ -1,10 +1,11 @@
-
+/* 
 /* .baby-names-container{
   /* display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(14, 1fr);
   grid-gap: 2px;
 }  */
+
 
 
 .baby-names-container:nth-child(odd) {
@@ -24,7 +25,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 5px;
-  margin: 7rem 2rem 2rem 2rem;
+  margin: 2rem 2rem 5rem 2rem;
 }
 
 .name-item {
@@ -36,4 +37,15 @@
 .name-list:nth-child(odd){
   border-bottom: 1px solid gray;
   padding-bottom: 5rem;
-}
+} 
+
+.input{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 500px;
+}   
+
+
+ 
+

@@ -1,12 +1,14 @@
 import React from 'react';
-import BabyNames from "./babyNamesPicker";
+import BabyNamesApp from "./babyNamesApp";
+// import BabyNamesPicker from "./BabyNamesPicker";
 
 
 
 const App = () => {
   return (
     <div>
-    <BabyNames />
+    {/* <BabyNamesPicker /> */}
+    <BabyNamesApp />
     </div>
   )
 }
