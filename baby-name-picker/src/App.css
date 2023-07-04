@@ -25,7 +25,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 5px;
-  margin: 2rem 2rem 5rem 2rem;
+  margin: 2rem;
 }
 
 .name-item {
@@ -37,6 +37,9 @@
 .name-list:nth-child(odd){
   border-bottom: 1px solid gray;
   padding-bottom: 5rem;
+  border-top: 1px solid gray;
+  padding-top: 2rem;
+  
 } 
 
 .input{
@@ -46,6 +49,31 @@
   width: 500px;
 }   
 
+.favourite-name-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-left: 2rem;
+}
+
+.favourite-name-list p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-right: 5px;
+}
+
+.favourite-name-item {
+  padding: 3px;
+  border-radius: 2px;
+  font-size: 20px;
+  background-color: lightyellow;
+  margin-bottom: 5px;
+}
+
+p{
+  color: lightgray;
+}
 
  
 
