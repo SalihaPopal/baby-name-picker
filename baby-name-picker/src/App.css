@@ -1,0 +1,39 @@
+
+/* .baby-names-container{
+  /* display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+  grid-gap: 2px;
+}  */
+
+
+.baby-names-container:nth-child(odd) {
+  border-top: 10px solid lightpink;
+  border-left: 10px solid lightpink;
+  margin: 5rem;
+}
+
+.baby-names-container:nth-child(odd) {
+  border-right: 10px solid lightblue;
+  border-bottom: 10px solid lightblue;
+}
+
+
+.name-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin: 7rem 2rem 2rem 2rem;
+}
+
+.name-item {
+  padding: 3px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+.name-list:nth-child(odd){
+  border-bottom: 1px solid gray;
+  padding-bottom: 5rem;
+}

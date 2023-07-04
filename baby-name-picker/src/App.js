@@ -1,7 +1,9 @@
 import React from 'react';
-import BabyNames from './BabyNames';
+import BabyNames from "./babyNamesPicker";
 
-function App () {
+
+
+const App = () => {
   return (
     <div>
     <BabyNames />
